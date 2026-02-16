@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+
+<head>
+
+    <style type = "text/css">
+
+        /*  todo el texto del documento (X)HTML marcado con la etiqueta strong aparecerá en color rojo. */ 
+        strong 
+        {
+            color: red;
+        } 
+        
+
+        /* si el texto marcado con la etiqueta strong aparece dentro de una cabecera de primer nivel (h1), su color será azul.  */
+        h1 strong 
+        {
+            color: blue;
+        }
+
+
+        /*  Cuando una hoja de estilo contiene varias reglas en conflicto de igual peso, sólo se tendrá en cuenta la que está en último lugar. 
+        En el siguiente ejemplo, todas las cabeceras de primer nivel del documento serían rojas porque se impone siempre la última regla*/
+        h1 
+        {
+            color: green;
+        } 
+        
+
+        h1 
+        {
+            color: blue;
+        } 
+        
+
+        h1 
+        {
+            color: red;
+        }
+ 
+
+    </style>
+
+
+    <title>1.3. Conceptos clave de CSS.</title>
+
+</head>
+
+
+<body>
+
+
+    <h1> <strong> Plat&oacute;n </strong> </h1>
+
+
+    <p> <strong> S&oacute;crates: La mente lo es todo; en lo que piensas te conviertes. </strong> </p>
+    
+</body>
+
+</html>

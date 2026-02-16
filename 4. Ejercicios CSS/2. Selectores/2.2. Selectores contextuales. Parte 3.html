@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+
+<head>
+
+    <!-- Si se emplea el selector descendente combinado con el selector universal, se puede restringir el alcance de un selector descendente. -->
+
+    <style type = "text/css">
+
+        /* Con la primera se consigue que se muestren los dos enlaces de color rojo. */        
+        p a 
+        { 
+            color: red; 
+        }
+
+
+        /* con la segunda regla sólo se mostraría en rojo el segundo de los enlaces.  */
+        p * a 
+        { 
+            color: red; 
+        }
+
+
+        /*  La razón es que el selector p * a se traduce como "todos los elementos de tipo <a> que se encuentran dentro de cualquier elemento que, 
+            a su vez, se encuentra dentro de un elemento de tipo <p>". Como el primer elemento <a> está directamente incluido en un elemento <p>, 
+            no se cumple la condición del selector p * a. 
+        */
+ 
+    </style>
+
+
+    <title>2.2. Selectores contextuales.</title>
+
+</head>
+
+
+<body>
+
+    <!-- El siguiente ejemplo muestra dos párrafos que contienen un hipervínculo. 
+
+     En el primer caso el elemento ancla es descendiente directo del elemento de párrafo y, -->
+    <p><a href="#">Enlace</a></p>
+ 
+    <!-- en el segundo caso, es descendiente directo del elemento span que, a su vez, lo es del elemento  de párrafo. -->
+    <p><span><a href="#">Enlace</a></span></p>
+
+</body>
+
+</html>
