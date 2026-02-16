@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+    <!-- Los elementos HTML disponen de un atributo llamado identificador (id), que tiene como finalidad identificar al de manera excluyente.
+         De este modo, CSS u otro lenguaje podrá hacer referencia a él y distinguirlo del resto de los elementos del documento. -->
+
+    <style type="text/css">
+
+
+        /* Para escribir una regla de estilo que se aplique a un determinado identificador hay que escribir el símbolo de la almohadilla (#) seguido del nombre del identificador. */
+
+        /* indicamos que se aplique el estilo a un párrafo cuyo identificador sea "textocabacera" */
+        
+        p#textocabecera {font-size: 14px; } */
+
+
+        /* como el id es único en cada documento, realmente basta con la segunda forma para decir lo mismo, porque no va a haber otro elemento <p> o diferente de <p> que tenga ese mismo identificador. */
+
+        #textocabecera 
+        {
+            font-size: 14px;
+        }
+
+    </style>
+
+    <title>2.3. Selectores de clase e ID.</title>
+
+</head>
+
+<body>
+
+    <p id="textocabecera"> El más rico es quien se contenta con poco.</p>
+
+</body>
+
+</html>
