@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+
+<head>
+
+    
+    <style type = "text/css">
+
+        /* 
+        El selector adyacente se utiliza para hacer referencia a un elemento que sigue inmediatamente a otro en el código, con el que comparte el mismo elemento padre. 
+        Un selector adyacente se escribe a continuación de otro selector separándolo de él por el símbolo de suma (+). 
+        El siguiente ejemplo pondría en color azul el primer párrafo que sigue a una cabecera de primer nivel.
+        */
+
+        h1 + p 
+        {
+            color: blue;
+        }
+ 
+    </style>
+
+
+    <title>2.2. Selectores contextuales.</title>
+
+</head>
+
+
+<body>
+
+
+    <h1>Este es un Título (h1)</h1>
+
+    <p>Este párrafo se verá azul porque es el hermano inmediato del h1.</p>
+    
+    <p>Este párrafo NO será azul (no sigue directamente a un h1).</p>
+
+    
+</body>
+
+</html>
