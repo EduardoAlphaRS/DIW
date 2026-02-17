@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+    <style type="text/css">
+
+        /* Estos pseudoelementos suelen ser partes de un elemento ya existente, como puede ser su primera línea 
+        (:first-line) o su primera letra (:first-letter), aunque también nos permite hacer referencia a elementos 
+        sin concretar en la estructura del documento porque dependen de la estructura del documento (:before y :after).  */
+       
+        p.incompleto:after { content: " continuará ..."; }  
+
+    </style>
+
+    <title> 2.4. Pseudoselectores. </title>
+
+</head>
+
+<body>
+
+    <!-- Añadimos el texto " continuará ..." al final de cada párrafo perteneciente a la clase "incompleto". -->
+    
+    <p class="incompleto">La historia de la evolución espiritual</p>
+
+
+</body>
+
+</html>
