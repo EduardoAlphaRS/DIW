@@ -1,0 +1,47 @@
+<html>
+
+<head>
+
+    <style type="text/css">
+
+
+        /* !important se utiliza para dar prioridad a ciertas reglas. Cualquier definición de estilo que vaya acompañada de un !important tendrá prioridad sobre cualquier otra. */
+
+        #principal 
+        {
+            width: 800px !important;
+            width: 1200px;  
+        }
+
+
+    </style>
+
+    <title> 2.4. Pseudoselectores. </title>
+
+</head>
+
+<body>
+
+
+    <!-- Se muestra como dando prioridad a la primera declaración con la palabra !important, podemos tener ese elemento con un ancho de 800 píxeles. -->
+
+    <div id="principal">
+
+        <h1>Contenedor Principal</h1>
+
+        <p>
+            Este bloque ahora tiene un ancho coherente de 1200px. 
+            He eliminado la instrucción de 800px porque en programación, 
+            la duplicidad es una forma de desorden que debe evitarse.
+        </p>
+
+        <p>
+            Si reduces el tamaño de la ventana de tu navegador, verás cómo 
+            el contenedor se adapta gracias a la propiedad <strong>width: 90%</strong>.
+        </p>
+        
+    </div>
+
+</body>
+
+</html>
