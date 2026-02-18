@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+
+<head>
+
+    <style type = "text/css">
+
+        h1 
+        { 
+            /* Establece la fuente Arial para las cabeceras de primer nivel. */
+            font-family: Arial; 
+
+            /* Establece el tamaño del texto de las cabeceras de pimer nievl en un tamaño dos veces y medio mayor que el tamaño de la fuente mostrada por defecto en el navegador. */
+            font-size: 2.5em;
+        }
+
+
+        /* Establece la fuente Courier y, en caso de no existir ésta en el equipo, una fuente de la familia monospace al elemento que tenga un id igual a "cabecera". */ 
+        #cabecera { font-family: Courier, monospace; }
+
+        p { font: 12px arial; }
+
+        /* Establece la fuente Trebuchet MS y, en caso de no existir ésta en el equipo, una fuente Verdana y, en caso de que ésta tampoco exista, una de la familia sans-serif 
+        a los párrafos que pertenezcan a la clase “articulo”. */
+        p.articulo { font-family: "Trebuchet MS", Verdana, sans-serif; }
+
+        body 
+        { 
+            /* El tamaño del texto variará según la resolución del monitor. */                        
+            font-size: 15px; 
+
+       
+        }
+
+    </style>
+
+    <title>3.1. Propiedades de fuente.</title>
+
+</head>
+
+
+<body>
+
+    <h1>Socrates.</h1>
+
+    <p class="cabecera">Hoy tenemos grandes rebajas.</p>
+
+    <p>Sé amable, porque todos enfrentan una dura batalla.</p>
+
+    <p class="articulo">Este texto se verá en Trebuchet MS o Verdana.</p>
+
+</body>
+
+</html>
