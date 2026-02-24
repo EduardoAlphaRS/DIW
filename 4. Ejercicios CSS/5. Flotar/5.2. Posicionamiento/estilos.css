@@ -1,0 +1,7 @@
+#caja2 {width: 130px; height: 130px;
+        background-color:#00FF00;
+        border: solid 1px black;
+        margin: 10px;
+        /* Posicionamento relativo */
+        position: relative;
+        left: 50px; top: 50px; }
