@@ -1,0 +1,7 @@
+table{  border:#000 solid thin;  /* Para que los bordes aparezcan */
+        border-collapse: separate; /* Bordes separados */ 
+        border-spacing: 0.5em 1em; /* Separación de los bordes */
+        empty-cells: show;  /* Las celdas vacías se muestran */ 
+}
+
+table caption { caption-side: bottom;  /* El título de la tabla aparece debajo */ }
