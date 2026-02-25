@@ -1,0 +1,6 @@
+ul {list-style-image: url(boliche.gif);
+    list-style-type: disc;
+    list-style-position: outside; }
+
+ul.especial { list-style: outside circle url("imagenes/balon.png"); }
+
